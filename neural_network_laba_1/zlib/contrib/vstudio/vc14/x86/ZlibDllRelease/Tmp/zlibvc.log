@@ -1,0 +1,35 @@
+﻿  Microsoft (R) Macro Assembler Version 14.16.27026.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: match686.asm
+  Microsoft (R) Macro Assembler Version 14.16.27026.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: inffas32.asm
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  Assembler code may have bugs -- use at your own risk
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  infback.c
+  inffast.c
+  Assembler code may have bugs -- use at your own risk
+  inflate.c
+  inftrees.c
+  ioapi.c
+  iowin32.c
+c:\dev\libsc\zlib\contrib\minizip\iowin32.c(31): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  trees.c
+  uncompr.c
+  zutil.c
+  unzip.c
+  zip.c
+     Создается библиотека x86\ZlibDllRelease\zlibwapi.lib и объект x86\ZlibDllRelease\zlibwapi.exp
+  Создание кода
+  All 263 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  zlibvc.vcxproj -> C:\dev\libsC\zlib\contrib\vstudio\vc14\x86\ZlibDllRelease\zlibwapi.dll
