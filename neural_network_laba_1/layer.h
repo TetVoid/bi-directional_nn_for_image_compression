@@ -1,22 +1,25 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include<time.h>
+#include<stdlib.h>
+#include <thread>
 using namespace std;
 
 class Layer
 {
 private:
-	vector<vector<double>>weights;
-	vector<double> error_layer;
-	vector<double>answer_vector;
-	vector<double>inputs ;
-	double adaptive_learning_step(double max_learning_step, vector<double> answer);
+	double** weights=0;
+	double* error_layer;
+	double* answer_vector;
+	double* inputs ;
+	double adaptive_learning_step(double max_learning_step, double* answer);
 public:
 	void init_layer(int m, int n);
-	void calculate(vector<double>inputs);
-	vector< double> get_error_layer();
+	void calculate(double *inputs);
+	double* get_error_layer();
 	void train(double learning_step, Layer prev_layer);
-	void set_error_layer(vector<double>error_layer);
-	vector< double> get_answer_vector();
+	void set_error_layer(double*error_layer);
+	double* get_answer_vector();
 	int get_inputs_layers_size();
 };

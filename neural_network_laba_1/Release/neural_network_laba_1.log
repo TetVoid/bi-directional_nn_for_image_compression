@@ -1,0 +1,21 @@
+﻿  neural_network_laba_1.cpp
+C:\Users\ASUS-PC\Desktop\neural_network_laba_1\neural_network_laba_1\neural_network_laba_1.cpp(48,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS-PC\Desktop\neural_network_laba_1\neural_network_laba_1\neural_network_laba_1.cpp(50,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS-PC\Desktop\neural_network_laba_1\neural_network_laba_1\neural_network_laba_1.cpp(52,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS-PC\Desktop\neural_network_laba_1\neural_network_laba_1\neural_network_laba_1.cpp(126,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS-PC\Desktop\neural_network_laba_1\neural_network_laba_1\neural_network_laba_1.cpp(127,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS-PC\Desktop\neural_network_laba_1\neural_network_laba_1\neural_network_laba_1.cpp(134,59): warning C4244: =: преобразование "_Ty" в "T", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              T=unsigned char
+          ]
+  Создание кода
+  2 of 1352 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    56 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  neural_network_laba_1.vcxproj -> C:\Users\ASUS-PC\Desktop\neural_network_laba_1\Release\neural_network_laba_1.exe
